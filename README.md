@@ -2,10 +2,10 @@
 
 This repository contains different path planning algorithms implemented in Python. Currently, the following algorithms are available:
 
-✅ **A*** (A-star)  
-✅ **RRT** (Rapidly-exploring Random Tree)
+**A*** (A-star)  
+**RRT** (Rapidly-exploring Random Tree)
 
-## 📌 Path Planning Visualization
+## Path Planning Visualization
 
 ## A* Algorithm
 ![A* Path Planning](images/Astar.png)
@@ -13,7 +13,7 @@ This repository contains different path planning algorithms implemented in Pytho
 ## RRT Algorithm
 ![RRT Path Planning](images/RRT.png)
 
-## 📖 References
+## References
 
 - **A* algorithm**:  
   P. E. Hart, N. J. Nilsson, and B. Raphael,  
@@ -27,7 +27,7 @@ This repository contains different path planning algorithms implemented in Pytho
   *Int. J. ITS Res. 20, 170–180 (2022).*  
   [DOI: 10.1007/s13177-021-00281-2](https://doi.org/10.1007/s13177-021-00281-2)
 
-## ⚙️ How to Run
+## How to Run
 
 1. Clone this repository:
    git clone https://github.com/your-repo/path_planning.git
