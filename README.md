@@ -1,17 +1,33 @@
- Path_planning_AV
-Different path planning algorithms written in python
+# Path Planning for Autonomous Vehicles
 
-For now there is A* and RRT algorithms available:
+This repository contains different path planning algorithms implemented in Python. Currently, the following algorithms are available:
 
-A*:
-![obraz](https://github.com/user-attachments/assets/1aec0ead-361f-4945-8278-58f3e27d9d91)
+✅ **A*** (A-star)  
+✅ **RRT** (Rapidly-exploring Random Tree)
 
+## 📌 Path Planning Visualization
 
-RRT:
-![obraz](https://github.com/user-attachments/assets/51cf0cc9-65cb-4dd1-81c1-39884b153cd2)#
+## A* Algorithm
+![A* Path Planning](images/Astar.png)
 
-Algorithm codes are based on publications listed below:
+## RRT Algorithm
+![RRT Path Planning](images/RRT.png)
 
-A* algorithm - P. E. Hart, N. J. Nilsson and B. Raphael, "A Formal Basis for the Heuristic Determination of Minimum Cost Paths," in IEEE Transactions on Systems Science and Cybernetics, vol. 4, no. 2, pp. 100-107, July 1968, doi: 10.1109/TSSC.1968.300136
+## 📖 References
 
-RRT algorithm - Huang, G., Ma, Q. Research on Path Planning Algorithm of Autonomous Vehicles Based on Improved RRT Algorithm. Int. J. ITS Res. 20, 170–180 (2022). https://doi.org/10.1007/s13177-021-00281-2
+- **A* algorithm**:  
+  P. E. Hart, N. J. Nilsson, and B. Raphael,  
+  "A Formal Basis for the Heuristic Determination of Minimum Cost Paths,"  
+  *IEEE Transactions on Systems Science and Cybernetics*, vol. 4, no. 2, pp. 100-107, July 1968.  
+  [DOI: 10.1109/TSSC.1968.300136](https://doi.org/10.1109/TSSC.1968.300136)
+
+- **RRT algorithm**:  
+  Huang, G., Ma, Q.,  
+  "Research on Path Planning Algorithm of Autonomous Vehicles Based on Improved RRT Algorithm,"  
+  *Int. J. ITS Res. 20, 170–180 (2022).*  
+  [DOI: 10.1007/s13177-021-00281-2](https://doi.org/10.1007/s13177-021-00281-2)
+
+## ⚙️ How to Run
+
+1. Clone this repository:
+   git clone https://github.com/your-repo/path_planning.git
